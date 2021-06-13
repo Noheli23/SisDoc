@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/desing_reg.png);
+    font-family: 'Archivo', sans-serif;
+}
+.container{
+    margin: auto;  
+}
+form{
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#volver{
+    color: #ca0f0c;
+    font-size: 20px;
+}
+.btn{
+    width: 200px;
+    margin: auto;
+}
