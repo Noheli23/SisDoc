@@ -14,7 +14,7 @@ class App{
             $archivoController = 'controllers/login.php';
             require_once $archivoController;
             $controller = new Login();
-            $controller->loadModel('Usuario');
+            $controller->loadModel('usuarioModel');
             $controller->render();
             return false;
         }

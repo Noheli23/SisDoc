@@ -23,7 +23,7 @@
 
 	<div class="container">
 		<div class="login-content">
-			<form action="#" method="POST">
+			<form action="<?php echo constant('URL'); ?>login/iniciarSesion" method="POST">
 
 				<h2 class="title">Iniciar Sesión</h2>
 				<div class="input-div one">
